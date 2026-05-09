@@ -27,7 +27,7 @@ import type { RunSpec, RunResult, RunEvent, RunManifest } from "@hxflow/shared/t
 
 - `@hxflow/agent` — entrypoint 写 RunResult / TraceEntry
 - `@hxflow/cli` — 构造 RunSpec，读取 RunResult / RunManifest
-- `@hxflow/ui` — 渲染 RunSummary / RunEvent
+- `@hxflow/console` — 渲染 RunSummary / RunEvent
 - `@hxflow/workflow` — re-export（保持 `@hxflow/workflow/contracts` 历史路径兼容）
 
 ## 本地开发

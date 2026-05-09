@@ -2,7 +2,7 @@
  * @hxflow/workflow contract types — single source of truth shared across:
  *   @hxflow/agent  (writes RunEvent / RunResult to /output)
  *   @hxflow/cli    (constructs RunSpec, reads RunResult, follows RunEvent stream)
- *   @hxflow/ui     (renders RunSummary / RunEvent in browser)
+ *   @hxflow/console     (renders RunSummary / RunEvent in browser)
  *   @hxflow/sdk    (programmatic API consuming the same types)
  *
  * Phase 0 draft. Refine in Phase 2/3 as concrete needs emerge.
